@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +35,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.modal-show {
+  background-color: #90caf9;
+  width: 60vw;
+  height: 40vmax;
+  z-index: 99;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
